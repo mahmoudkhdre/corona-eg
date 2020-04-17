@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  text-align: center;
+  background-color: rgba(109, 109, 112, 0.733);
+  color:#fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.his{
+
+}
+.total{
+padding: 25px;
+border-top: 1px solid rgb(255, 255, 255);
+border-bottom: 1px solid rgb(255, 255, 255);
+
+
+}
+.num{
+  font-weight: 600;
+  color: rgb(114, 248, 96);
+
+}
+.num::after { 
+  content: " حالة";
+ 
+  color: rgb(255, 251, 251);
+  font-weight: bold;
+}
+.container{
+  padding: 17px 10px 10px 10px;
+  margin: auto;
+  background-color: rgba(34, 44, 78, 0.747);
+}
