@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -66,3 +66,21 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## create react app
+```
+npx react-create-app corona-eg
+cd corona-eg
+npm start
+```
+## install axios
+```
+npm i axios
+```
+## import axios
+
+```
+import axios from 'axios';
+```
+get [Api json link] (https://api.covid19api.com/total/dayone/country/egypt)
