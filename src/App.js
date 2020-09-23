@@ -29,7 +29,7 @@ class App extends Component{
       <div className="App">
         <div className="container">
           <h3>عدد الاصابات في جمهورية  مصر العربية </h3>
-         {this.state.Confirmed.map(conf => <div className="total"> مجموع الاصابات <span className="num">{conf.Confirmed}</span>  <span className="his">  في يوم  {conf.Date.substring(0,10)} </span></div>)}
+         {this.state.Confirmed.map(conf => <div className="total"> مجموع الاصابات <span className="num">{conf.Confirmed.reverse()}</span>  <span className="his">  في يوم  {conf.Date.substring(0,10)} </span></div>)}
         </div>
         </div>
     )
